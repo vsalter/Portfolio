@@ -1,0 +1,740 @@
+@charset "utf-8";
+/* CSS Document */
+
+	
+body {
+		
+	background-color: black;
+		
+}
+	
+header {
+	
+	width: 100%;
+	border-bottom: solid thick #9B9B9B;
+
+}
+	
+#about {
+	
+	font-family: 'Girassol', cursive;
+	display: inline;
+	float: right;
+	color: #B8B7B7;
+	text-decoration: none;
+	font-size: 100%;
+	padding: 5% 4% 0;
+	
+}
+
+#initials {
+	
+	font-family: 'Damion', cursive;
+	font-size: 150%;
+	color: white;
+	display: inline;
+	padding: 0 0 0 5%;
+	
+}
+
+#about:hover {
+	
+	color: white;
+	
+}
+
+#bio {
+	
+	margin: 15% 10% 0;
+	display: block;
+}
+
+#greeting {
+	
+	font-family: 'Bowlby One SC', cursive;
+	color: #695506;
+	font-size: 300%;
+}
+
+#info {
+	
+	font-family: 'Rajdhani', sans-serif;
+	color: #D5D4D4;
+	font-size: 150%;
+	
+}
+
+#viewProjects {
+	
+	text-align: center;
+	font-family: 'Rajdhani', sans-serif;
+	color: #695506;
+	margin: 15% 0 0;
+	font-size: 200%;
+	
+}
+
+i {
+	
+	border: solid white;
+  	border-width: 0 3px 3px 0;
+  	display: inline-block;
+  	padding: 3px;
+}
+
+#down {
+	
+	transform: rotate(45deg);
+  	-webkit-transform: rotate(45deg);
+	
+}
+
+a {
+	
+	text-decoration: none;
+	color: #695506;
+}
+	
+#projects {
+	
+
+	width: 100%;
+	text-align: center;
+	margin-top: 10%;
+	
+}	
+
+figure img {
+	
+	width: 50%;
+	height: auto;
+	
+}
+
+#aboutMe {
+	
+	width: 90%;
+	height: auto;
+	text-align: center;
+	padding: 5%;
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 200%;
+	color: white;
+	margin-top: 10%;
+	display: block;
+	
+}
+
+#links {
+	
+	width: 90%;
+	height: auto;
+	text-align: center;
+	color: #655C50;
+	display: block;
+	
+	
+}	
+
+#RGD {
+	
+	margin-top: 5%;
+	margin-bottom: 20%;
+	text-align: center;
+	
+}
+	
+#links h3 {
+	
+	padding: 3% 0 0;
+	text-decoration: underline;
+	font-size: 180%;
+	
+}
+
+#resume {
+	
+	color: #655C50;
+	
+}
+
+#resume:hover {
+	
+	color: white;
+	
+}
+
+#email {
+	
+	color: white;
+	font-size: 125%;
+	
+}
+
+#email:hover {
+	
+	color: #655C50;
+	font-size: 130%;
+	
+}
+
+
+@media all and (min-width: 400px) {
+	
+body {
+		
+	background-color: black;
+		
+}
+	
+header {
+	
+	width: 100%;
+	border-bottom: solid thick #9B9B9B;
+
+}
+	
+#about {
+	
+	font-family: 'Girassol', cursive;
+	display: inline;
+	float: right;
+	color: #B8B7B7;
+	text-decoration: none;
+	font-size: 100%;
+	padding: 5% 4% 0;
+	
+}
+
+#initials {
+	
+	font-family: 'Damion', cursive;
+	font-size: 200%;
+	color: white;
+	display: inline;
+	padding: 0 0 0 5%;
+	
+}
+
+#about:hover {
+	
+	color: white;
+	
+}
+
+#bio {
+	
+	margin: 15% 10% 0;
+	display: block;
+}
+
+#greeting {
+	
+	font-family: 'Bowlby One SC', cursive;
+	color: #695506;
+	font-size: 300%;
+}
+
+#info {
+	
+	font-family: 'Rajdhani', sans-serif;
+	color: #D5D4D4;
+	font-size: 150%;
+	
+}
+
+#viewProjects {
+	
+	text-align: center;
+	font-family: 'Rajdhani', sans-serif;
+	color: #695506;
+	margin: 15% 0 0;
+	font-size: 200%;
+	
+}
+
+i {
+	
+	border: solid white;
+  	border-width: 0 3px 3px 0;
+  	display: inline-block;
+  	padding: 3px;
+}
+
+#down {
+	
+	transform: rotate(45deg);
+  	-webkit-transform: rotate(45deg);
+	
+}
+
+a {
+	
+	text-decoration: none;
+	color: #695506;
+}
+	
+#projects {
+	
+
+	width: 100%;
+	text-align: center;
+	margin-top: 10%;
+	
+}	
+
+figure img {
+	
+	width: 50%;
+	height: auto;
+	
+}
+
+#aboutMe {
+	
+	width: 90%;
+	height: auto;
+	text-align: center;
+	padding: 5%;
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 200%;
+	color: white;
+	margin-top: 10%;
+	display: block;
+	
+}
+
+#links {
+	
+	width: 90%;
+	height: auto;
+	text-align: center;
+	color: #655C50;
+	display: block;
+	
+	
+}	
+
+#RGD {
+	
+	margin-top: 5%;
+	margin-bottom: 20%;
+	text-align: center;
+	
+}
+	
+#links h3 {
+	
+	padding: 3% 0 0;
+	text-decoration: underline;
+	font-size: 180%;
+	
+}
+
+#resume {
+	
+	color: #655C50;
+	
+}
+
+#resume:hover {
+	
+	color: white;
+	
+}
+
+#email {
+	
+	color: white;
+	font-size: 125%;
+	
+}
+
+#email:hover {
+	
+	color: #655C50;
+	font-size: 130%;
+	
+}
+
+}
+
+@media all and (min-width: 600px) {
+	
+body {
+
+	background-color: black;
+		
+}
+	
+header {
+	
+	width: 100%;
+	border-bottom: solid thick #9B9B9B;
+
+}
+	
+#about {
+	
+	font-family: 'Girassol', cursive;
+	display: inline;
+	float: right;
+	color: #B8B7B7;
+	text-decoration: none;
+	font-size: 200%;
+	padding: 2% 5% 0;
+	
+}
+
+#initials {
+	
+	font-family: 'Damion', cursive;
+	font-size: 300%;
+	color: white;
+	display: inline;
+	padding: 0 0 0 5%;
+	
+}
+	
+
+
+#about:hover {
+	
+	color: white;
+	
+}
+
+#bio {
+	
+	margin: 5% 10% 0;
+}
+
+#greeting {
+	
+	font-family: 'Bowlby One SC', cursive;
+	color: #695506;
+	font-size: 128px;
+}
+
+#info {
+	
+	font-family: 'Rajdhani', sans-serif;
+	color: #D5D4D4;
+	font-size: 32px;
+	
+}
+
+#viewProjects {
+	
+	text-align: center;
+	font-family: 'Rajdhani', sans-serif;
+	color: #695506;
+	margin: 10% 0 0;
+	font-size: 32px;
+	
+}
+
+i {
+	
+	border: solid white;
+  	border-width: 0 3px 3px 0;
+  	display: inline-block;
+  	padding: 3px;
+}
+
+#down {
+	
+	transform: rotate(45deg);
+  	-webkit-transform: rotate(45deg);
+	
+}
+
+a {
+	
+	text-decoration: none;
+	color: #695506;
+}
+	
+#projects {
+	
+
+	width: 100%;
+	text-align: center;
+	margin-top: 10%;
+	
+}	
+
+figure img {
+	
+	width: 50%;
+	height: auto;
+	
+}
+	
+#aboutMe {
+	
+	width: 90%;
+	height: auto;
+	text-align: center;
+	padding: 5%;
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 200%;
+	color: white;
+	margin-top: 10%;
+	display: block;
+	
+}
+
+#links {
+	
+	width: 90%;
+	height: auto;
+	text-align: center;
+	color: #655C50;
+	display: block;
+	
+	
+}	
+
+#RGD {
+	
+	margin-top: 5%;
+	margin-bottom: 20%;
+	text-align: center;
+	
+}
+	
+#links h3 {
+	
+	padding: 3% 0 0;
+	text-decoration: underline;
+	font-size: 180%;
+	
+}
+
+#resume {
+	
+	color: #655C50;
+	
+}
+
+#resume:hover {
+	
+	color: white;
+	
+}
+
+#email {
+	
+	color: white;
+	font-size: 125%;
+	
+}
+
+#email:hover {
+	
+	color: #655C50;
+	font-size: 130%;
+	
+}
+	
+
+	
+}
+@media all and (min-width: 768px) {
+	
+body {
+	
+	background-color: black;
+	
+}
+
+header {
+	
+	width: 100%;
+	border-bottom: solid thick #9B9B9B;
+
+}
+
+#about {
+	
+	font-family: 'Girassol', cursive;
+	display: inline;
+	float: right;
+	color: #B8B7B7;
+	text-decoration: none;
+	font-size: 32px;
+	padding: 75px 25px 0;
+	
+}
+
+#initials {
+	
+	font-family: 'Damion', cursive;
+	font-size: 96px;
+	color: white;
+	display: inline;
+	padding: 0 0 0 25px;
+	
+}
+
+#about:hover, #contact:hover {
+	
+	color: white;
+	
+}
+
+#bio {
+	
+	margin: 5% 10% 0;
+}
+
+#greeting {
+	
+	font-family: 'Bowlby One SC', cursive;
+	color: #695506;
+	font-size: 128px;
+}
+
+#info {
+	
+	font-family: 'Rajdhani', sans-serif;
+	color: #D5D4D4;
+	font-size: 32px;
+	
+}
+
+#viewProjects {
+	
+	text-align: center;
+	font-family: 'Rajdhani', sans-serif;
+	color: #695506;
+	margin: 10% 0 0;
+	font-size: 32px;
+	
+}
+
+i {
+	
+	border: solid white;
+  	border-width: 0 3px 3px 0;
+  	display: inline-block;
+  	padding: 3px;
+}
+
+#down {
+	
+	transform: rotate(45deg);
+  	-webkit-transform: rotate(45deg);
+	
+}
+
+a {
+	
+	text-decoration: none;
+	color: #695506;
+}
+
+#projects {
+	
+	margin: 10% 0;
+	width: 100%;
+	text-align: center;
+	
+}
+
+/*h1 {
+	
+	text-align: center;
+	font-family: 'Rajdhani', sans-serif;
+	color: #695506;
+	
+}*/
+	
+.sites {
+	
+	display: inline;
+	text-align: center;
+	width: 405px;
+	height: auto;
+
+
+}
+
+figure img {
+	
+	width: 400px;
+	height: auto;
+	
+	
+}
+
+#aboutMe {
+	
+	width: 50%;
+	height: auto;
+	text-align: center;
+	padding: 20px;
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 40px;
+	color: white;
+	margin-top: 50px;
+	border-right: medium solid #655C50;
+	display: inline;
+	float: left;
+	
+}
+
+#links {
+	
+	width: 40%;
+	height: auto;
+	text-align: center;
+	color: #655C50;
+	display: inline;
+	float: left;
+	
+	
+}
+
+#RGD {
+	
+	margin-top: 100px;
+	margin-left: 75px;
+	
+}
+#links h3 {
+	
+	padding: 30px 0 0;
+	text-decoration: underline;
+	font-size: 60px;
+	
+}
+
+#resume {
+	
+	color: #655C50;
+	
+}
+
+#resume:hover {
+	
+	color: white;
+	
+}
+
+#email {
+	
+	color: white;
+	font-size: 40px;
+	
+}
+
+#email:hover {
+	
+	color: #655C50;
+	font-size: 45px;
+	
+}
+
+}
