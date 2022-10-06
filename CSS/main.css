@@ -457,18 +457,41 @@ a {
 	
 #projects {
 	
-
+	display: grid;
+	grid: 's1 s2 s3 s4';
 	width: 100%;
-	text-align: center;
+	/* text-align: center; */
 	margin-top: 10%;
 	
 }	
 
-figure img {
+.sites {
+	width: 305px;
+	height: 180px;
+	color: #695506;
+}
+
+.sites img {
 	
-	width: 50%;
-	height: auto;
+	width: 300px;
+	height: 175px;
 	
+}
+
+#s1 {
+	grid-area: s1;
+}
+
+#s2 {
+	grid-area: s2;
+}
+
+#s3 {
+	grid-area: s3;
+}
+
+#s4 {
+	grid-area: s4;
 }
 	
 #aboutMe {
